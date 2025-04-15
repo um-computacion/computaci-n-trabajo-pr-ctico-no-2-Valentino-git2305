@@ -15,8 +15,11 @@ def limpiar_texto(s):
     return ''.join(c.lower() for c in s if c.isalnum())
 
 
+
 def comparar_caracteres(c1, c2):
     """
     Compara dos caracteres ignorando mayúsculas/minúsculas.
     """
     return c1.lower() == c2.lower()
+
+origin/main
